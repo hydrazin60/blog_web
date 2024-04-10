@@ -1,0 +1,12 @@
+.quill-container {
+   border-top: 3px solid rgb(39, 242, 12);
+   border-left: 3px solid rgb(39, 242, 12);
+   border-right: 3px solid rgb(39, 242, 12);
+  }
+   body{
+      height: 100vh;
+  }
+  
+.ql-editor{
+   font-size: 1.05rem;
+}

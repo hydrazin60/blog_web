@@ -1,0 +1,15 @@
+@keyframes writing {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  .writing-effect {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: writing 10s linear infinite;
+  }
+  

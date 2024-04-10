@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.post-content p {
+margin-bottom: 0.5rem;
+}
+
+.post-content h1{
+   font-size: 1.5rem;
+   font-weight: 600; 
+   font-family: sans-serif;
+   margin: 1.5rem 0 ;
+}
+
+.post-content h2{
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    margin: 1.5rem 0 ;
+}
+
+.post-content a{
+   color: rgb(253, 21, 160);
+   font-weight: 500;
+   text-decoration: none;
+}
+
+.post-content a:hover{
+    text-decoration: underline;
+    background-color: rgb(147, 107, 107);
+    font-size: 1.3rem;
+}
+
+.dark .post-content a {
+    color: yellow;
+    background-color: #0000ff;
+}
+
+ 
